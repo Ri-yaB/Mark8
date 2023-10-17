@@ -12,5 +12,6 @@ root.render(
   <React.StrictMode>
     
     <Hero/>
+    
   </React.StrictMode>
 );
