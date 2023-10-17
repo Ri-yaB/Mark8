@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css';
+import './Footer.css';
 import image from "./images/Mark.png"
 import { FaFacebook, FaTwitter, FaGooglePlusG } from 'react-icons/fa';
 
@@ -18,15 +18,9 @@ function Footer() {
             </div>
             <div className="footer-social-icon">
               <span>Follow us</span>
-              <a href="#">
-            <FaFacebook className="facebook-bg" />
-          </a>
-          <a href="#">
-            <FaTwitter className="twitter-bg" />
-          </a>
-          <a href="#">
-            <FaGooglePlusG className="google-bg" />
-          </a>
+              <a href="#"><i className="fab fa-facebook-f facebook-bg"></i></a>
+              <a href="#"><i className="fab fa-twitter twitter-bg"></i></a>
+              <a href="#"><i className="fab fa-google-plus-g google-bg"></i></a>
             </div>
           </div>
           <div className="footer-widget col">
@@ -58,7 +52,7 @@ function Footer() {
               <h3>Subscribe</h3>
             </div>
             <div className="footer-text mb-25">
-              <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+              <p>Don't miss to subscribe to our new feeds, kindly fill the form below.</p>
             </div>
             <div className="subscribe-form">
               <form action="#">

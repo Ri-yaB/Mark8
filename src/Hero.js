@@ -1,4 +1,3 @@
-import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faHandshake } from '@fortawesome/free-solid-svg-icons'; // Import the user and handshake icons
 import Slider from 'react-slick'; // Import the slider library
@@ -6,10 +5,13 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './styles.css';
 import image from "./images/Mark.png";
+import React from 'react';
+
+
 
 
 function Hero() {
-
+    
     const cardData = [
         {
           title: 'Create a profile for business enquiries',
@@ -69,8 +71,12 @@ function Hero() {
         </div>
       </div>
 
+      
 
     </div>
+
+
+
   );
 }
 
